@@ -1,0 +1,38 @@
+[
+    {
+        "precio": 500,
+        "id": 1,
+        "title": "Electrodos",
+        "img": "./img/Electrodos.jpg"
+    },
+    {
+        "precio": 30000,
+        "id": 2,
+        "title": "Soldadora inverter",
+        "img": "./img/STARK-200-TR-600x400.jpg"
+    },
+    {
+        "precio": 100000,
+        "id": 3,
+        "title": "Maquina Plasma",
+        "img": "./img/Cutter-60K-HF-600x600.jpg"
+    },
+    {
+        "precio": 50000,
+        "id": 4,
+        "title": "MIG MAG",
+        "img": "./img/sin-título--600x600.jpg"
+    },
+    {
+        "precio": 40000,
+        "id": 5,
+        "title": "TIG",
+        "img": "./img/Tig.jpg"
+    },
+    {
+        "precio": 150,
+        "id": 6,
+        "title": "Gas (CO2)",
+        "img": "./img/CO2.jpg"
+    }
+]
