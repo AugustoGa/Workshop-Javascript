@@ -142,17 +142,18 @@ const btnAumentarDisminuir = e => {
 
     if (e.target.classList.contains('btn-danger')) {
         const producto = carrito[e.target.dataset.id]
-        producto.cantidad--
-        if (producto.cantidad === 0) {
-            delete carrito[e.target.dataset.id]
-        } else {
-            carrito[e.target.dataset.id] = {...producto}
-            Swal.fire({
+                    Swal.fire({
                 title: `Usted esta quitando este producto del carrito`, 
                 text: 'Seguro que quiere continuar',
                 icon: 'warning',
                 confirmButtonText: 'SI'
             })
+        producto.cantidad--
+        if (producto.cantidad === 0) {
+            delete carrito[e.target.dataset.id]
+            
+        } else {
+            carrito[e.target.dataset.id] = {...producto}
         }
         pintarCarrito()
     }
